@@ -1,0 +1,6 @@
+dataset,task,parameter,eta_squared,friedman_stat,friedman_p,significant
+pol,classification,n_estimators,0.0,18.3562,0.0004,True
+pol,classification,max_depth,0.7571,728.0129,0.0,True
+pol,classification,max_features,0.1473,692.2734,0.0,True
+pol,classification,min_samples_split,0.0009,229.4086,0.0,True
+pol,classification,min_samples_leaf,0.0137,423.8814,0.0,True

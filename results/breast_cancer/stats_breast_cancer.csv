@@ -1,0 +1,6 @@
+dataset,task,parameter,eta_squared,friedman_stat,friedman_p,significant
+breast_cancer,classification,n_estimators,0.0211,79.0916,0.0,True
+breast_cancer,classification,max_depth,0.0091,113.8872,0.0,True
+breast_cancer,classification,max_features,0.4099,371.1969,0.0,True
+breast_cancer,classification,min_samples_split,0.1009,271.1726,0.0,True
+breast_cancer,classification,min_samples_leaf,0.0821,115.3332,0.0,True

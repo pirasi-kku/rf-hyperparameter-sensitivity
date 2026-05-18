@@ -1,0 +1,6 @@
+dataset,task,parameter,eta_squared,friedman_stat,friedman_p,significant
+abalone,regression,n_estimators,0.0034,682.0266,0.0,True
+abalone,regression,max_depth,0.7881,463.9984,0.0,True
+abalone,regression,max_features,0.0533,266.7094,0.0,True
+abalone,regression,min_samples_split,0.0015,114.0959,0.0,True
+abalone,regression,min_samples_leaf,0.0039,279.8203,0.0,True

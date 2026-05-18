@@ -1,0 +1,6 @@
+dataset,task,parameter,eta_squared,friedman_stat,friedman_p,significant
+covertype,classification,n_estimators,0.0001,41.8547,0.0,True
+covertype,classification,max_depth,0.7328,735.3047,0.0,True
+covertype,classification,max_features,0.1435,668.4516,0.0,True
+covertype,classification,min_samples_split,0.0071,359.5319,0.0,True
+covertype,classification,min_samples_leaf,0.0579,547.5328,0.0,True

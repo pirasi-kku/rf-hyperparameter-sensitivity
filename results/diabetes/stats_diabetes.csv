@@ -1,0 +1,6 @@
+dataset,task,parameter,eta_squared,friedman_stat,friedman_p,significant
+diabetes,regression,n_estimators,0.034,331.8516,0.0,True
+diabetes,regression,max_depth,0.01,6.0829,0.1076,False
+diabetes,regression,max_features,0.3314,406.2964,0.0,True
+diabetes,regression,min_samples_split,0.0355,66.4031,0.0,True
+diabetes,regression,min_samples_leaf,0.2992,480.2016,0.0,True

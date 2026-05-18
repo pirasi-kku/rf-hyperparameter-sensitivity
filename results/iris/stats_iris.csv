@@ -1,0 +1,6 @@
+dataset,task,parameter,eta_squared,friedman_stat,friedman_p,significant
+iris,classification,n_estimators,0.0023,48.9835,0.0,True
+iris,classification,max_depth,0.0,12.0,0.0074,True
+iris,classification,max_features,0.2962,264.0154,0.0,True
+iris,classification,min_samples_split,0.0081,74.746,0.0,True
+iris,classification,min_samples_leaf,0.2349,279.3085,0.0,True

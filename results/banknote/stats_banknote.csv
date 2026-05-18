@@ -1,0 +1,6 @@
+dataset,task,parameter,eta_squared,friedman_stat,friedman_p,significant
+banknote,classification,n_estimators,0.0065,103.5048,0.0,True
+banknote,classification,max_depth,0.4356,763.5786,0.0,True
+banknote,classification,max_features,0.0817,322.9219,0.0,True
+banknote,classification,min_samples_split,0.0257,430.9675,0.0,True
+banknote,classification,min_samples_leaf,0.3288,667.1946,0.0,True

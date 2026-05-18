@@ -1,0 +1,2 @@
+dataset,task,n_configs,n_folds,primary_metric,best_mean_r2,best_mean_rmse,best_n_estimators,best_max_depth,best_max_features,best_min_samples_split,best_min_samples_leaf
+kin8nm,regression,1024,10,mean_r2,0.7264,0.1377,500,,1.0,2,1

@@ -1,0 +1,6 @@
+dataset,task,parameter,eta_squared,friedman_stat,friedman_p,significant
+vehicle,classification,n_estimators,0.0092,67.1109,0.0,True
+vehicle,classification,max_depth,0.1842,219.7236,0.0,True
+vehicle,classification,max_features,0.0262,78.375,0.0,True
+vehicle,classification,min_samples_split,0.0405,183.4832,0.0,True
+vehicle,classification,min_samples_leaf,0.4528,538.8094,0.0,True

@@ -1,0 +1,2 @@
+dataset,task,n_configs,n_folds,primary_metric,best_mean_r2,best_mean_rmse,best_n_estimators,best_max_depth,best_max_features,best_min_samples_split,best_min_samples_leaf
+house_sales,regression,1024,10,mean_r2,0.8701,27664.0381,50,10.0,0.5,5,1

@@ -1,0 +1,6 @@
+dataset,task,parameter,eta_squared,friedman_stat,friedman_p,significant
+kin8nm,regression,n_estimators,0.0003,556.4672,0.0,True
+kin8nm,regression,max_depth,0.934,709.2584,0.0,True
+kin8nm,regression,max_features,0.034,703.3922,0.0,True
+kin8nm,regression,min_samples_split,0.0063,313.5866,0.0,True
+kin8nm,regression,min_samples_leaf,0.0115,135.0328,0.0,True

@@ -1,0 +1,2 @@
+dataset,task,n_configs,n_folds,primary_metric,best_mean_f1,best_mean_accuracy,best_n_estimators,best_max_depth,best_max_features,best_min_samples_split,best_min_samples_leaf
+phoneme,classification,1024,10,mean_f1,0.9137,0.9141,500,,sqrt,2,1

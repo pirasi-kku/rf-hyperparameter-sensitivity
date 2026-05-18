@@ -1,0 +1,6 @@
+dataset,task,parameter,eta_squared,friedman_stat,friedman_p,significant
+california_housing,regression,n_estimators,0.0002,486.9328,0.0,True
+california_housing,regression,max_depth,0.9778,703.3922,0.0,True
+california_housing,regression,max_features,0.0088,625.275,0.0,True
+california_housing,regression,min_samples_split,0.0004,323.8277,0.0,True
+california_housing,regression,min_samples_leaf,0.0029,423.6047,0.0,True

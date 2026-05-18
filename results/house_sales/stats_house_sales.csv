@@ -1,0 +1,6 @@
+dataset,task,parameter,eta_squared,friedman_stat,friedman_p,significant
+house_sales,regression,n_estimators,0.0015,74.7562,0.0,True
+house_sales,regression,max_depth,0.5205,554.866,0.0,True
+house_sales,regression,max_features,0.1834,647.2734,0.0,True
+house_sales,regression,min_samples_split,0.0175,372.2013,0.0,True
+house_sales,regression,min_samples_leaf,0.1952,672.225,0.0,True

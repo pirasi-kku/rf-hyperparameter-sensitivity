@@ -1,0 +1,6 @@
+dataset,task,parameter,eta_squared,friedman_stat,friedman_p,significant
+wine,classification,n_estimators,0.003,70.9778,0.0,True
+wine,classification,max_depth,0.0,16.3333,0.001,True
+wine,classification,max_features,0.7985,708.0,0.0,True
+wine,classification,min_samples_split,0.001,64.3622,0.0,True
+wine,classification,min_samples_leaf,0.1061,478.7716,0.0,True

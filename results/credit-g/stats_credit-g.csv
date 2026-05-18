@@ -1,0 +1,6 @@
+dataset,task,parameter,eta_squared,friedman_stat,friedman_p,significant
+credit-g,classification,n_estimators,0.0035,63.8297,0.0,True
+credit-g,classification,max_depth,0.3287,498.163,0.0,True
+credit-g,classification,max_features,0.417,708.1875,0.0,True
+credit-g,classification,min_samples_split,0.0036,132.1606,0.0,True
+credit-g,classification,min_samples_leaf,0.126,621.6469,0.0,True

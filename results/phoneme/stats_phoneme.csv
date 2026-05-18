@@ -1,0 +1,6 @@
+dataset,task,parameter,eta_squared,friedman_stat,friedman_p,significant
+phoneme,classification,n_estimators,0.0015,323.7516,0.0,True
+phoneme,classification,max_depth,0.8994,673.8316,0.0,True
+phoneme,classification,max_features,0.004,0.4252,0.935,False
+phoneme,classification,min_samples_split,0.0109,326.9747,0.0,True
+phoneme,classification,min_samples_leaf,0.0356,498.6975,0.0,True

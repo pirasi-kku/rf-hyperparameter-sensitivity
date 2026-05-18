@@ -1,0 +1,6 @@
+dataset,task,parameter,eta_squared,friedman_stat,friedman_p,significant
+bike_sharing,regression,n_estimators,0.0002,745.9266,0.0,True
+bike_sharing,regression,max_depth,0.8523,695.7047,0.0,True
+bike_sharing,regression,max_features,0.1274,753.0853,0.0,True
+bike_sharing,regression,min_samples_split,0.0006,351.5594,0.0,True
+bike_sharing,regression,min_samples_leaf,0.0046,411.8766,0.0,True

@@ -1,0 +1,6 @@
+dataset,task,parameter,eta_squared,friedman_stat,friedman_p,significant
+ionosphere,classification,n_estimators,0.0021,5.1222,0.1631,False
+ionosphere,classification,max_depth,0.0033,42.6409,0.0,True
+ionosphere,classification,max_features,0.4915,570.8906,0.0,True
+ionosphere,classification,min_samples_split,0.0661,185.7371,0.0,True
+ionosphere,classification,min_samples_leaf,0.193,383.0624,0.0,True
