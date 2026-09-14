@@ -179,3 +179,8 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Project-specific: output trees written by code/rf_sensitivity_analysis.py.
+# The published results live in results/ ; these are working directories.
+checkpoint_rf_sensitivity/
+results_rf_sensitivity/

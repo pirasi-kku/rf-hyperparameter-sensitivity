@@ -1,7 +1,7 @@
 # =============================================================================
 # Systematic Hyperparameter Sensitivity Analysis: Random Forest
 # Tasks: Classification + Regression
-# Author: Pirapong Jitsatha, Dept. of Mathematics, Khon Kaen University
+# Author: Pirapong Singsathid, Dept. of Mathematics, Khon Kaen University
 # =============================================================================
 # - Single-dataset mode: set DATASET_NAME below, run once per dataset (12 phases)
 # - Statistical tests: Friedman, Wilcoxon post-hoc (within-parameter pairs), η²
@@ -586,4 +586,4 @@ if __name__ == '__main__':
     # 5. Export best config + summary
     export_best_config(df, primary_metric, secondary_metric, task)
 
-    print(f"\nAll done! Results saved to: {RESULTS_DIR}")                                                                                                                                                                                                                                                                                                                                                                          
+    print(f"\nAll done! Results saved to: {RESULTS_DIR}")
