@@ -68,8 +68,13 @@ for pm in PARAMS:
     print("%-20s %.3f [%.3f, %.3f]      %.3f [%.3f, %.3f]" % (pm,mc,lc,hc,mr,lr,hr))
 
 # ---------- 3. Shaffer static on the Wilcoxon families ----------
-# k=4 levels -> m=6 hypotheses; possible numbers of true nulls S(4)={0,1,3,6}
-T = [6,3,3,1,1,1]
+# k=4 levels -> m=C(4,2)=6 hypotheses.  Equality is an equivalence relation, so the
+# set of simultaneously true nulls is fixed by a partition of the 4 levels into
+# equality classes, and the number of true pairwise nulls is sum_i C(n_i,2):
+#   4      -> 6      3+1    -> 3      2+2 -> 2      2+1+1 -> 1      1+1+1+1 -> 0
+# hence S(4) = {0,1,2,3,6}.  The step-j threshold is alpha/t_j with
+#   t_j = max{ s in S(4) : s <= m-(j-1) }  ->  t = [6,3,3,3,2,1].
+T = [6,3,3,3,2,1]
 def shaffer(ps, alpha=0.05):
     """ps: list of 6 p-values (NaN -> 1.0). Returns list of booleans, same order."""
     idx = sorted(range(len(ps)), key=lambda i: ps[i])

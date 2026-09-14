@@ -49,7 +49,7 @@ rf-hyperparameter-sensitivity/
 │       ├── best_configs_<dataset>.csv  # top-ranked configurations
 │       └── wilcoxon_<dataset>.csv      # pairwise Wilcoxon post-hoc results
 ├── paper/
-│   └── rf_sensitivity_manuscript_fcds_v8.pdf
+│   └── rf_sensitivity_manuscript.pdf
 ├── requirements.txt
 ├── LICENSE
 └── README.md
@@ -135,7 +135,7 @@ Datasets are downloaded automatically through `sklearn.datasets` and `fetch_open
 
 - **`max_depth`** is the dominant hyperparameter in both task types: mean eta-squared = 0.389 [0.200, 0.588] for classification and 0.729 [0.496, 0.902] for regression.
 - **`max_features`** ranks second, and matters proportionally more for classification (0.268 [0.146, 0.403]) than for regression (0.119 [0.053, 0.196]).
-- **`n_estimators`** and **`min_samples_split`** are negligible in both task types (mean eta-squared < 0.025; the bootstrap upper bound for `n_estimators` is 0.008 and 0.013). Both can be left at their defaults.
+- **`n_estimators`** and **`min_samples_split`** are negligible in both task types (cross-dataset mean eta-squared < 0.025; the bootstrap upper bound for `n_estimators` is 0.008 and 0.013). Both can be left at their defaults.
 - `min_samples_split` is largely redundant with `min_samples_leaf`: in the grid used here, 9 of the 16 level combinations leave the split constraint inert because the leaf constraint binds first.
 - The ranking `max_depth > max_features > min_samples_leaf > min_samples_split > n_estimators` holds for the **cross-dataset means**, not for every individual dataset. Ranked by their own dominant parameter, the 20 datasets fall into three regimes: `max_depth`-dominant (13), `max_features`-dominant (6, including Iris and Wine, where the `max_depth` effect is essentially zero) and `min_samples_leaf`-dominant (1, Vehicle).
 - **Largest effect is not the same as best tuning target.** `max_depth` carries the largest effect size, but `max_depth=None` is the scikit-learn default *and* the best setting on 17 of 20 datasets, so the practical instruction is to leave it unconstrained rather than to sweep it. `max_features` is where a sweep pays: its `sqrt` default is best on only 5 of 20. `min_samples_leaf` is worth tuning on small datasets (n < 1,000) and wherever depth is left unconstrained. Section 5.3 of the manuscript gives the full ordering.
