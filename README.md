@@ -1,8 +1,8 @@
 # Systematic Hyperparameter Sensitivity Analysis of Random Forest
 
-**Authors:** Thapakorn Sinlapakorn, Pirapong Singsathid  
+**Author:** Pirapong Singsathid  
 **Affiliation:** Department of Mathematics, Faculty of Science, Khon Kaen University, Thailand  
-**Corresponding author:** Pirapong Singsathid — pirasi@kku.ac.th
+**Contact:** pirasi@kku.ac.th
 
 ---
 
